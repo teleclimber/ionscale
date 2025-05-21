@@ -111,7 +111,7 @@ To create an auth key:
 ionscale auth-key create --tailnet "my-first-tailnet"
 
 # Create an auth key with specific tags
-ionscale auth-key create --tailnet "my-first-tailnet" --tags "tag:server"
+ionscale auth-key create --tailnet "my-first-tailnet" --tag "tag:server"
 ```
 
 The tags assigned to the key will determine what network access the device has once connected, based on your ACL rules.
